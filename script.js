@@ -17,5 +17,6 @@ function pmam() {
 	}
 }
 pmam();
+hour = (hour > 12)? hour - 12 : hour 
 
-console.log(`Today is: ${whichDay}\nCurrent time is: ${hour} ${ampm}:${min}:${sec}`);
+console.log(`Today is: ${whichDay}\nCurrent time is: ${hour} ${ampm} : ${min} : ${sec}`);
